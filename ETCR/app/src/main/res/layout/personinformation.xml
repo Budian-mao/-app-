@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    -<LinearLayout tools:context="page.page1.userMsgActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="50dp" android:layout_width="match_parent" tools:layout_editor_absoluteX="8dp" tools:layout_editor_absoluteY="0dp" android:layout_gravity="center" android:background="#1E90FF">
+
+    <TextView android:layout_height="match_parent" android:layout_width="match_parent" android:textStyle="bold" android:textSize="25dp" android:text="个人信息" android:gravity="center" android:textColor="#ffffff"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:padding="45dp">
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="30dp" android:text="用户id:"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="25dp" android:text="user" android:id="@+id/showUser"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="30dp" android:text="用户昵称:"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="25dp" android:text="昵称" android:id="@+id/name" android:maxLines="1"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="10dp">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="30dp" android:text="用户专业:"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="25dp" android:text="专业" android:id="@+id/subject" android:maxLines="1"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="10dp">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="30dp" android:text="电话:"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="25dp" android:text="电话" android:id="@+id/phone" android:maxLines="1"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="10dp">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="30dp" android:text="QQ号:"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="25dp" android:text="QQ号" android:id="@+id/qq" android:maxLines="1"/>
+
+</LinearLayout>
+
+
+
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#FF9900" android:textSize="30dp" android:text="修改用户信息" android:textColor="#ffffff" android:id="@+id/changemsg" android:layout_marginTop="20dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#66CCFF" android:textSize="30dp" android:text="返 回" android:id="@+id/back" android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

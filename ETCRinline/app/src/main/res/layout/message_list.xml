@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    -
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            xmlns:sp="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <com.skypan.easytochewroot.SwipeListView
+                android:id="@+id/messagelistview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff4f7f9"
+                android:cacheColorHint="#00000000"
+                android:divider="#dddbdb"
+                android:dividerHeight="1dp"
+                sp:right_width="120dp"
+                tools:ignore="MissingClass" />
+
+
+        </LinearLayout>
+
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--第一个RadioButton-->
+
+
+                <RadioButton
+                    android:id="@+id/button_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:button="@null"
+                    android:drawableTop="@drawable/pic_home"
+                    android:gravity="center"
+                    android:text="首页"
+                    android:textColor="#666666"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/button_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:button="@null"
+                    android:drawableTop="@drawable/pic_my"
+                    android:gravity="center"
+                    android:text="消息"
+                    android:textColor="#666666"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/button_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:button="@null"
+                    android:drawableTop="@drawable/pic_my"
+                    android:gravity="center"
+                    android:text="个人中心"
+                    android:textColor="#666666"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    -<LinearLayout tools:context="page.page1.changepwdActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="50dp" android:layout_width="match_parent" tools:layout_editor_absoluteX="8dp" tools:layout_editor_absoluteY="0dp" android:gravity="center" android:background="#1E90FF">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center" android:textStyle="bold" android:textSize="25dp" android:text="修改密码" android:textColor="#ffffff"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:padding="25dp" android:layout_marginTop="20dp">
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center_vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="30dp" android:text="欢迎用户: "/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="25dp" android:text="user" android:id="@+id/showuser"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center_vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="30dp" android:text="旧密码: "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="25dp" android:id="@+id/oldpwd" android:hint="请输入旧密码"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center_vertical">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="30dp" android:text="新密码: "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="25dp" android:layout_marginTop="-10dp" android:id="@+id/newpwd" android:hint="请输入新密码 "/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center_vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="30dp" android:text="确认密码: "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="25dp" android:id="@+id/newpwd1" android:hint="请确认密码"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center" android:textSize="25dp" android:text="确认修改" android:id="@+id/change"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="25dp" android:text="返 回" android:id="@+id/back"/>
+
+</LinearLayout>
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

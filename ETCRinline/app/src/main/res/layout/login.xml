@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    -<LinearLayout tools:context="page.page1.LoginMainActivity" android:background="#ffffff" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:background="#1E90FF" android:orientation="horizontal" android:layout_height="50dp" android:layout_width="match_parent" android:gravity="center">
+
+    <TextView android:layout_height="50dp" android:layout_width="match_parent" android:gravity="center" android:textStyle="bold" android:textSize="25dp" android:text="登录界面" android:textColor="#ffffff"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="120dp">
+
+    <ImageView android:layout_height="50dp" android:layout_width="40dp" android:src="@drawable/user" android:layout_marginLeft="50dp" android:id="@+id/pic_user"/>
+
+    <EditText android:layout_height="55dp" android:layout_width="300dp" android:textSize="25dp" android:layout_marginLeft="15dp" android:id="@+id/login_user" android:textColorHint="#708090" android:hint="请输入用户账号" android:layout_marginRight="50dp" android:layout_toRightOf="@+id/pic_user" android:maxLines="1"/>
+
+    <ImageView android:layout_height="50dp" android:layout_width="40dp" android:layout_marginTop="15dp" android:src="@drawable/passwd" android:layout_marginLeft="50dp" android:id="@+id/pic_pass" android:layout_below="@+id/pic_user"/>
+
+    <EditText android:layout_height="55dp" android:layout_width="300dp" android:textSize="25dp" android:layout_marginLeft="15dp" android:id="@+id/login_password" android:textColorHint="#708090" android:hint="请输入用户密码" android:layout_marginRight="50dp" android:layout_toRightOf="@+id/pic_pass" android:maxLines="1" android:inputType="textPassword" android:layout_alignBottom="@+id/pic_pass"/>
+
+</RelativeLayout>
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="50dp" android:layout_gravity="center_horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="match_parent" android:gravity="center" android:textStyle="bold" android:textSize="20dp" android:text="欢迎登陆" android:textColor="#CCCCCC"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="match_parent" android:gravity="center" android:textStyle="bold" android:textSize="20dp" android:text=" " android:textColor="#CCCCCC"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="match_parent" android:textStyle="bold" android:textSize="20dp" android:text="新用户注册" android:textColor="#CCCCCC" android:id="@+id/toRegister"/>
+
+</LinearLayout>
+
+    <Button android:background="#FF6600" android:layout_height="wrap_content" android:layout_width="300dp" android:textStyle="bold" android:textSize="28dp" android:text="登 录" android:textColor="#ffffff" android:layout_marginTop="80dp" android:id="@+id/login" android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

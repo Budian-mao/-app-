@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:persistentDrawingCache="animation"
+            android:id="@+id/viewpage"
+            >
+        </androidx.viewpager.widget.ViewPager>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="19dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv1"
+                android:src="@drawable/login_selectd"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv2"
+                android:src="@drawable/login_point"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+    -<!--LinearLayout tools:context="page.page1.AboutMainActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="50dp" android:layout_width="match_parent" tools:layout_editor_absoluteX="8dp" tools:layout_editor_absoluteY="0dp" android:gravity="center_vertical" android:background="#1E90FF">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="欢迎使用EasyToChewRoot"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
+
+
+    -<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:fadingEdge="vertical" android:scrollbars="vertical">
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@drawable/yindaoye"-->
+
+    <!--TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center" android:textSize="35dp" android:text="校园易" android:layout_marginTop="10dp"/-->
+
+    <!--TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:text=" 每逢毕业季，许多毕业生都会选择将自己一些物品进行售卖，而在平时也经常会有同学想要把自己闲置的物品进行售卖，他们售卖的途径大多是通过聊天群，校园贴吧甚至摆摊的形式。\n 本产品可以为卖方和买方提供一个平台进行交易，信息资源更加集中，提高成交率。"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/-->
+    <!--mageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/yindaoye" /-->
+    <!--Button
+        android:id="@+id/cometo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:text="进入主页"
+        android:textSize="30dp" />
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout-->
+    <!--Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进入APP"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="116dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/yindaoye"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+    <RelativeLayout xmlns:android="http://scheams.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_launch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+        <RadioGroup
+            android:id="@+id/rg_indicate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|center"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"/>
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="立即开始美好生活"
+            android:textColor="#ff3300"
+            android:textSize="22sp"
+            android:visibility="gone"/>
+    </RelativeLayout-->
+</androidx.constraintlayout.widget.ConstraintLayout>

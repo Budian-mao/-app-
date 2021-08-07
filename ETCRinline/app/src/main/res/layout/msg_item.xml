@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    9-26行是在左侧出现的主要是在left_layout布局中放入了一个TextView来显示文字，left_layout布局中的背景就是我们做的Nine-Patch图片；；；代表的是接收的消息
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation = "vertical">
+        <!--android:background="@drawable/message_left"-->
+
+        <TextView
+            android:id="@+id/left_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#070000"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    9-26行是在右侧出现的主要是在right_layout布局中放入了一个TextView来显示文字，right_layout布局中的背景就是我们做的Nine-Patch图片；；；代表的是发送的消息
+    <LinearLayout
+        android:id="@+id/right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation = "vertical">
+        <!--android:background="@drawable/message_right"-->
+
+        <TextView
+            android:id="@+id/right_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#050000"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

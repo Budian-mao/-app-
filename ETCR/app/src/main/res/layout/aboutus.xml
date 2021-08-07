@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    -<LinearLayout tools:context="page.page1.AboutMainActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="50dp" android:layout_width="match_parent" tools:layout_editor_absoluteX="8dp" tools:layout_editor_absoluteY="0dp" android:gravity="center_vertical" android:background="#1E90FF">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center" android:textStyle="bold" android:textSize="25dp" android:text="关于我们" android:textColor="#ffffff"/>
+
+</LinearLayout>
+
+
+    -<ScrollView android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" android:fadingEdge="vertical" android:scrollbars="vertical">
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center" android:textSize="35dp" android:text="校园易" android:layout_marginTop="10dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="30dp" android:text=" 每逢毕业季，许多毕业生都会选择将自己一些物品进行售卖，而在平时也经常会有同学想要把自己闲置的物品进行售卖，他们售卖的途径大多是通过聊天群，校园贴吧甚至摆摊的形式。\n 本产品可以为卖方和买方提供一个平台进行交易，信息资源更加集中，提高成交率。" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:layout_marginLeft="20dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="30dp" android:text="进入主页" android:layout_margin="15dp" android:id="@+id/cometo"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
